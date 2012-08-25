@@ -77,6 +77,10 @@ class Crashes(PostgreSQLBase):
 
         params = self.prepare_search_params(**kwargs)
 
+        # XXX does this work?!
+        params["from_date"] = params.get("from")
+        params["to_date"] = params.get("to")
+
         # Creating the parameters for the sql query
         sql_params = {}
 
@@ -456,4 +460,3 @@ class Crashes(PostgreSQLBase):
             return tcbs.twoPeriodTopCrasherComparison(cursor, params)
         finally:
             connection.close()
-
