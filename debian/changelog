@@ -1,0 +1,11 @@
+socorro (1.0+20130208+git-581b0af) oneiric; urgency=low
+
+  * Updated to 581b0af 
+
+ -- Tobias Hieta <tobias@plexapp.com>  Fri, 08 Feb 2013 09:41:24 +0100
+
+socorro (1.0) quantal; urgency=low
+
+  * Initial release. 
+
+ -- Tobias Hieta <tobias@plexapp.com>  Thu, 07 Feb 2013 16:08:26 +0100

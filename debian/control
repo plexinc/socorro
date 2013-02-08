@@ -1,0 +1,14 @@
+Source: socorro
+Section: misc
+Priority: optional
+Maintainer: Tobias Hieta <tobias@plexapp.com>
+Build-Depends: debhelper (>= 7), build-essential, python-virtualenv, subversion, libpq-dev, python-dev, python2.6, python2.6-dev, libxslt1-dev, git-core, mercurial
+Standards-Version: 3.8.3
+Homepage: http://www.plexapp.com
+
+Package: socorro
+Architecture: i386 amd64
+Depends: postgresql-9.2, postgresql-plperl-9.2, postgresql-contrib-9.2, rsync, python2.6, python2.6-dev, libxslt1-dev, git-core, mercurial, supervisor
+Description: Mozilla Socorro
+  Breakpad website and crashdump collector
+
